@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class BridgeMaker {
 
-    private final BridgeNumberGenerator bridgeNumberGenerator
+    private final BridgeNumberGenerator bridgeNumberGenerator;
 
     public BridgeMaker(BridgeNumberGenerator bridgeNumberGenerator) {
         this.bridgeNumberGenerator = bridgeNumberGenerator;
